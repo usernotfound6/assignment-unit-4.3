@@ -13,7 +13,7 @@ addItem('Pear');
 console.log(basket); 
 
 function listItems() {
-    for (var i = 0; i < basket.length; i++) {
+    for (let i = 0; i < basket.length; i++) {
       console.log(basket[i]);
     }
   }
